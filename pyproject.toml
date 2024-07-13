@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "splynx-py-api"
+version = "0.0.1"
+authors = [
+  { name="David Mc Ken", email="david.mcken@codepro.guru" },
+]
+description = "Splynx REST API v2"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+]
+dependencies = [
+  "python-dotenv",
+  "requests",
+]
+
+[project.urls]
+Homepage = "https://github.com/dmcken/splynx-py-api"
+Issues   = "https://github.com/dmcken/splynx-py-api/issues"
