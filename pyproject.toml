@@ -20,7 +20,11 @@ classifiers = [
 dependencies = [
   "python-dotenv",
   "requests",
+  "pyphp @ git+https://git@github.com/dmcken/pyphp.git",
 ]
+
+[tool.hatch.metadata]
+allow-direct-references=true
 
 [project.urls]
 Homepage = "https://github.com/dmcken/splynx-py-api"
