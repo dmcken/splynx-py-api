@@ -222,9 +222,9 @@ if __name__ == '__main__':
     config = dotenv.dotenv_values()
 
     splynx_h = SplynxAPIv2(
-        base_url=config['URL'],
-        key=config['KEY'],
-        secret=config['SECRET'],
+        base_url = config['URL'],
+        key      = config['KEY'],
+        secret   = config['SECRET'],
     )
     splynx_h.debug_requests_on()
 
